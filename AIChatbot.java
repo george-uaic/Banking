@@ -71,13 +71,6 @@ public class AIChatbot {
         return this.answer;
     }
     
-    /**
-     * Get the current question
-     * @return The current question
-     */
-    public String getQuestion() {
-        return question;
-    }
     
     /**
      * Set a new question
