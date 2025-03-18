@@ -1,17 +1,20 @@
-public class BankEmployee extends Person {
+public class BankEmployee extends Person
+{
     private String answer;
     private String employeeId;
 
-    public BankEmployee(String name, String email, String phoneNumber, String employeeId) {
-        super(name, email, phoneNumber);
-        this.employeeId = employeeId;
+    public BankEmployee(String phoneNumber, String email, String password, String username, String lastName, String firstName)
+    {
+        super(phoneNumber, email, password, username, lastName, firstName);
     }
 
-    public String getEmployeeId() {
+    public String getEmployeeId()
+    {
         return employeeId;
     }
 
-    public String readAnswer() {
+    public String readAnswer()
+    {
         return "Reading answer: " + answer;
     }
 
