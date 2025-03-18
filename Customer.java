@@ -7,7 +7,7 @@ public class Customer extends Person {
 
     public Customer(String name, String email, String phoneNumber, String[] accounts) {
         super(name, email, phoneNumber);
-        this.accounts = accounts;
+        this.account = account;
     }
 
     public void sendQuestion(String question) {
