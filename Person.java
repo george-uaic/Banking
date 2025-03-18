@@ -1,13 +1,13 @@
 public class Person
 {
-    String firstName;
-    String lastName;
-    String username;
-    String password;
-    String email;
-    String phoneNumber;
-    Account account;
-    boolean loggedIn;
+    private String firstName;
+    private String lastName;
+    private String username;
+    private String password;
+    private String email;
+    private String phoneNumber;
+    protected Account account;
+    private boolean loggedIn;
 
     public Person(String phoneNumber, String email, String password, String username, String lastName, String firstName)
     {
