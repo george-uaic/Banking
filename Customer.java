@@ -1,21 +1,19 @@
-// Customer.java
-import java.util.Arrays;
-
-public class Customer extends Person {
+public class Customer extends Person
+{
     private String question;
-    private String[] account;
 
-    public Customer(String name, String email, String phoneNumber, String[] accounts) {
-        super(name, email, phoneNumber);
-        this.account = account;
+    public Customer(String phoneNumber, String email, String password, String username, String lastName, String firstName)
+    {
+        super(phoneNumber, email, password, username, lastName, firstName);
     }
 
-    public void sendQuestion(String question) {
+    public void sendQuestion(String question)
+    {
         this.question = question;
-        System.out.println("Customer asked: " + question);
     }
 
-    public void viewAccountDetails() {
-        System.out.println(Arrays.toString(account));
+    public void viewAccountDetails()
+    {
+        System.out.println(account);
     }
 }

@@ -6,7 +6,7 @@ public class Account
     private ArrayList<String> transactions;
     private String accountID;
     private float balance;
-    
+
     Account()
     {
         accountID = UUID.randomUUID().toString();
@@ -31,5 +31,10 @@ public class Account
     public ArrayList<String> getTransactions()
     {
         return transactions;
+    }
+
+    @Override
+    public String toString() {
+        return accountID + " : balance" + balance;
     }
 }
