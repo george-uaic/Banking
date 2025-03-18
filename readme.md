@@ -3,4 +3,6 @@ Luca Andrei <br/>
 Gheonea Naomi Denisa <br/>
 Munteanu Anastasia <br/>
 Paicu Eliza <br/>
-Oprea Danut
+Oprea Danut <br/>
+
+AIChatbot.java - was made using Claude AI <br/>
