@@ -6,3 +6,5 @@ Paicu Eliza <br/>
 Oprea Danut <br/>
 
 AIChatbot.java - was made using Claude AI <br/>
+Customer.java - was made using chatGPT <br/>
+BankEmployee.java - was made using chatGPT <br/>
